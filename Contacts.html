@@ -27,25 +27,53 @@
 <div class="banner">
   <h1>Contacts</h1>
 </div>
-</body>
-<body>
-    <div class="container">
-        <div class="map">
-            <img src="map-image-url" alt="Map" style="width: 100%; height: 100%;">
+
+
+<div class="contact-container">
+  <div class="map">
+      <img src="frame-4790.png" alt="Map of Kings Park Stadium, Business Center">
+  </div>
+  <div class="form-container">
+      <h2>Get in touch</h2>
+      <form>
+        <div class="form-row">
+            <div class="input-group">
+                <label for="first_name">First name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="First name">
+            </div>
+            <div class="input-group">
+                <label for="last_name">Last name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Last name">
+            </div>
         </div>
-        <div class="form-container">
-            <h2>Get in touch</h2>
-            <form>
-                <input type="text" name="first_name" placeholder="First name">
-                <input type="text" name="last_name" placeholder="Last name">
-                <input type="tel" name="phone" placeholder="Your Phone">
-                <input type="email" name="email" placeholder="Your Email">
-                <input type="text" name="subject" placeholder="Subject">
-                <textarea name="message" placeholder="Your message"></textarea>
-                <button type="submit">Send message</button>
-            </form>
+    
+        <div class="form-row">
+            <div class="input-group">
+                <label for="phone">Your Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+            </div>
+            <div class="input-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
         </div>
-    </div>
+    
+        <div class="input-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+        </div>
+    
+        <div class="input-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="Your message"></textarea>
+        </div>
+    
+        <button class="btn-submit" type="submit">Send message</button>
+    </form>
+    
+  </div>
+</div>
+
 
 
 <!-- Footer Section-->
