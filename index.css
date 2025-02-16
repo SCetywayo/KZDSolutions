@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the navbar */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0); /* Transparent background */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center;
+    width: 80%; /* Adjust the width to center content and leave space on sides */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Center logo vertically */
+    color: white; /* Change text color to white */
+    margin-left: 40px; /* Add space before the logo */
+    margin-right: 50px; /* Increase space between logo and "Home" */
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust logo height */
+    margin-right: 10px; /* Add some space between logo and text */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center; /* Center the nav links */
+    flex: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Add space between nav items */
+  }
+  
+  li {
+    float: none; /* Remove float */
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color changed to white for better contrast */
+  }
+  
+  .contact-button {
+    background-color: #2460fd; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px;
+    margin-left: 10px; /* Reduce space between contact and button */
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column; /* Column layout for heading and button */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Make the banner full height */
+    background: url('home-background.jpg') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .banner .learn-more {
+    margin-top: 20px; /* Add space between heading and button */
+    padding: 10px 20px;
+    background-color: #2460fd; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px;
+    text-align: center;
+  }

@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the navbar */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0); /* Transparent background */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center;
+    width: 80%; /* Adjust the width to center content and leave space on sides */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Center logo vertically */
+    color: white; /* Change text color to white */
+    margin-left: 40px; /* Add space before the logo */
+    margin-right: 50px; /* Increase space between logo and "Home" */
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust logo height */
+    margin-right: 10px; /* Add some space between logo and text */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center; /* Center the nav links */
+    flex: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Add space between nav items */
+  }
+  
+  li {
+    float: none; /* Remove float */
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color changed to white for better contrast */
+  }
+  
+  .contact-button {
+    background-color: transparent; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline */
+   border: black;  /*Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px;
+    margin-left: 10px; /* Reduce space between contact and button */
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column; /* Column layout for heading and button */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Make the banner full height */
+    background: url('About-banner.png') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .banner .learn-more {
+    margin-top: 20px; /* Add space between heading and button */
+    padding: 10px 20px;
+    background-color: #2460fd; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px;
+    text-align: center;
+  }
+
+.container {
+  display: flex;
+flex-direction: row;
+width: 100%;
+height: 100vh;
+background-color: #03055B;
+padding: 40px 20px 20px 20px;
+margin: 80px 40px 40px 0px;
+}
+  
+  .column {
+  width: 45%;
+  height: calc(100vh - 80px); /* updated height to account for increased top padding */
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .column-1 {
+  background-color: #f0f0f0;
+  }
+  
+  .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+  
+  .column-2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  }
+  
+  .heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+  color: #ffffff;
+  }
+  
+  .paragraph {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  }
+  
+  .button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+ 
+.p2 {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.text,
+.text * {
+  box-sizing: border-box;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.our-team-of-experts,
+.our-team-of-experts * {
+  box-sizing: border-box;
+}
+.our-team-of-experts {
+  padding: 60px 14px 60px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1076px;
+  position: relative;
+}
+.the-winning-roadmap {
+  color: #000d51;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.frame-453 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 539px;
+  position: relative;
+}
