@@ -100,6 +100,8 @@ body {
     text-align: center;
   }
 
+  /* Our Story*/
+
 .container {
   display: flex;
 flex-direction: row;
@@ -177,9 +179,12 @@ margin: 80px 40px 40px 0px;
   flex-shrink: 0;
   position: relative;
 }
+
+/* Winning Roadmap */
 .our-team-of-experts,
 .our-team-of-experts * {
   box-sizing: border-box;
+  width: 100%;
 }
 .our-team-of-experts {
   padding: 60px 14px 60px 13px;

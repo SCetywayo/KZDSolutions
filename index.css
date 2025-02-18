@@ -192,6 +192,200 @@ body {
 
 /* Third Section */
 
+.banner-help {
+  background: #ffffff;
+  padding: 40px 182px 10px 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1230px;
+  position: relative;
+}
+.problems-we-solve {
+  color: #000d51;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+}
+
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: none;
+  -webkit-font-smoothing: antialiased;
+}
+/* 
+body {
+  font-family: "AlbertSans-Regular", sans-serif;
+  background: #ffffff;
+  color: #000d51;
+}
+
+.what-services-do-we-offer-for-your-business {
+  padding: 120px 0px 120px 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+} */
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1076px;
+  position: absolute;
+  left: 189px;
+  top: 21px;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1076px;
+  position: relative;
+}
+
+.problems-we-solve {
+  color: #000d51;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 400;
+  position: relative;
+  width: 684px;
+  margin: 0 auto;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1400px;
+  position: relative;
+  margin-top: 50px;
+  padding-left: 20px;
+
+  
+}
+
+/* Individual Card Styling */
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  background: #ffffff;
+  border: 1px solid #000000;
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 322px;
+  height: 380px;
+  position: relative;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Add Icons to All Cards */
+.vector-icon {
+  width: 40px; /* Set consistent size */
+  height: auto;
+  position: absolute;
+  top: 10px; /* Position at the top-left */
+  left: 10px;
+}
+
+/* Text Content in Cards */
+.text4, .text5 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.marketing-strategy, .marketing-strategy2 {
+  color: #000d51;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.description {
+  color: rgba(0, 13, 81, 0.6);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  width: 240px;
+  height: 53px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Buttons */
+.button5 {
+  background: #2460fd;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 160px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #1a4ed8;
+}
+
+.details {
+  color: #ffffff
+}
+
+
 
 /* Fourth Section */
 
