@@ -35,16 +35,16 @@
       <img src="frame-4790.png" alt="Map of Kings Park Stadium, Business Center">
   </div>
   <div class="form-container">
-      <h2>Get in touch</h2>
-      <form>
+    <h2>Get in touch</h2>
+    <form action="send_mail.php" method="POST">
         <div class="form-row">
             <div class="input-group">
                 <label for="first_name">First name</label>
-                <input type="text" id="first_name" name="first_name" placeholder="First name">
+                <input type="text" id="first_name" name="first_name" placeholder="First name" required>
             </div>
             <div class="input-group">
                 <label for="last_name">Last name</label>
-                <input type="text" id="last_name" name="last_name" placeholder="Last name">
+                <input type="text" id="last_name" name="last_name" placeholder="Last name" required>
             </div>
         </div>
     
@@ -55,22 +55,23 @@
             </div>
             <div class="input-group">
                 <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="Your Email">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
             </div>
         </div>
     
         <div class="input-group">
             <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Subject">
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
         </div>
     
         <div class="input-group">
             <label for="message">Your message</label>
-            <textarea id="message" name="message" placeholder="Your message"></textarea>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
         </div>
     
         <button class="btn-submit" type="submit">Send message</button>
     </form>
+    
     
   </div>
 </div>
