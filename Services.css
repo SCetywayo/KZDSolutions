@@ -15,6 +15,8 @@ body {
     top: 0;
     z-index: 1;
   }
+
+  
   
   .header-content {
     display: flex;
@@ -62,15 +64,19 @@ body {
   }
   
   .contact-button {
-    background-color: #2460fd; /* Button background color */
+    background-color: transparent; /* Button background color */
     color: white; /* Button text color */
     padding: 10px 20px;
     text-decoration: none; /* Remove underline */
-    border: none; /* Remove border */
+    border: grey; /* Remove border */
     cursor: pointer; /* Pointer cursor on hover */
     font-size: 16px;
     margin-left: 10px; /* Reduce space between contact and button */
     border-radius: 5px;
+  }
+
+  .contact-button:hover{
+    background-color: #007bff;
   }
   
   .banner {
