@@ -64,17 +64,16 @@ body {
   }
   
   .contact-button {
-    background-color: transparent; /* Button background color */
-    color: white; /* Button text color */
+    background-color: transparent; /* Button background color */ 
+    color: white; /* Button text color */ 
     padding: 10px 20px;
     text-decoration: none; /* Remove underline */
-    border: grey; /* Remove border */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px;
-    margin-left: 10px; /* Reduce space between contact and button */
+    cursor: pointer; /* Pointer curson on hover */
+    Font-size: 16px;
+    margin-left: 10px; /* Reduce space between contact and button */ 
+    border: 1px solid white;
     border-radius: 5px;
   }
-
   .contact-button:hover{
     background-color: #007bff;
   }

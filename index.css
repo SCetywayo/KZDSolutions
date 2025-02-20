@@ -62,16 +62,15 @@ body {
   }
   
   .contact-button {
-    background-color:transparent; /* Button background color */
-    color: white; /* Button text color */
+    background-color: transparent; /* Button background color */ 
+    color: white; /* Button text color */ 
     padding: 10px 20px;
     text-decoration: none; /* Remove underline */
-    border:blue; /* Remove border */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px;
-    margin-left: 10px; /* Reduce space between contact and button */
+    cursor: pointer; /* Pointer curson on hover */
+    Font-size: 16px;
+    margin-left: 10px; /* Reduce space between contact and button */ 
+    border: 1px solid white;
     border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
   }
 
   .contact-button:hover{
