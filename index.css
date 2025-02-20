@@ -70,6 +70,7 @@ body {
     cursor: pointer; /* Pointer cursor on hover */
     font-size: 16px;
     margin-left: 10px; /* Reduce space between contact and button */
+    border-radius: 5px;
   }
   
   .banner {
@@ -179,6 +180,7 @@ body {
   height: 50px;
   position: relative;
   overflow: hidden;
+  border-radius: 5px;
 }
 .learn-more {
   color: #ffffff;
