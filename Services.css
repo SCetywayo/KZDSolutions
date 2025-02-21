@@ -428,7 +428,7 @@ video {
   align-self: stretch;
   height: 54px;
   text-overflow: ellipsis;
-  overflow: hidden;
+  overflow: visible;
 }
 .pexels-luis-gomes-166706-546819 {
   width: 100%;

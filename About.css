@@ -107,83 +107,84 @@ body {
 
   /* Our Story*/
 
-.container {
-display: flex;
-flex-direction: row;
-width: 100%;
-height: 100vh;
-background-color: #03055B;
-padding: 40px 20px 20px 20px;
-margin: 80px 40px 40px 0px;
-}
-  
-  .column {
-  width: 45%;
-  height: calc(100vh - 80px); /* updated height to account for increased top padding */
-  display: flex;
-  flex-direction: column;
-  }
-  
-  .column-1 {
-  background-color: #f0f0f0;
-  }
-  
-  .image {
+  .container-custom {
+    display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 100vh;
+  background-color: #03055B;
+  padding: 40px 20px 40px 20px; /* Padding for inner spacing */
+  margin: 80px 0; /* Creates gap at the top and bottom */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
   }
-  
-  .column-2 {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  }
-  
-  .heading {
-  font-size: 36px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-top: 0;
-  padding-top: 0;
-  color: #ffffff;
-  }
-  
-  .paragraph {
-  font-size: 18px;
-  margin-bottom: 40px;
-  color: #ffffff;
-  }
-  
-  .button {
-  padding: 15px 30px;
-  background-color: #007bff;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  }
- 
-.p2 {
-    color: white;
+    
+    .column {
+    width: 45%;
+    height: calc(100vh - 80px); /* updated height to account for increased top padding */
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .column-1 {
+    background-color: #f0f0f0;
+    }
+    
+    .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .column-2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+    
+    .heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+    color: #ffffff;
+    }
+    
+    .paragraph {
     font-size: 18px;
-    font-weight: lighter;
-}
-.text,
-.text * {
-  box-sizing: border-box;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
+    margin-bottom: 40px;
+    color: #ffffff;
+    }
+    
+    .button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+   
+  .p2 {
+      color: white;
+      font-size: 18px;
+      font-weight: lighter;
+  }
+  .text,
+  .text * {
+    box-sizing: border-box;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
 
 /* Winning Roadmap */
 .our-team-of-experts,
